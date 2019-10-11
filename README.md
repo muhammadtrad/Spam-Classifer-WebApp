@@ -6,6 +6,7 @@
 2. Application Model: 
 - sign up is required to access the prediction functionality and feature
 - in order to perform a prediction, upfront payment is required by credit card
+- for testing: enter 4242 4242 4242 4242 as card number. Enter any future exp date. Enter any 3-digit CVC. 
 3. Application Configuration:
 - App is based on flask authorization engine. 
 - Payments are linked to stripe test functionality
