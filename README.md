@@ -15,5 +15,3 @@
 - python app.py
 ```
 open with local address http://127.0.0.1:5000
-
-"# Midterm-Project" 
