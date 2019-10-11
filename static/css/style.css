@@ -1,0 +1,81 @@
+body
+{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.login-input {
+  width: 130px;
+}
+
+.form-button {
+  width: 80px;
+  height: 35px;
+}
+
+.signup-box {
+  margin: auto;
+  width: 325px;
+  background: rgba(11, 18, 117, 0.05);
+  border: 1px solid rgba(19, 126, 19, 0.3);
+  border-radius: 10px;
+}
+
+.settings-box {
+  margin: auto;
+  width: 325px;
+}
+
+.signup-area {
+  padding: 30px;
+}
+
+.settings-area {
+  padding: 30px;
+}
+
+.jumbotron
+{
+  text-align: center;
+}
+
+.jumbotron h1
+{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.hero-body h1
+{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.ml-container
+{
+  text-align: center;
+}
+
+.results
+{
+  text-align: center;
+}
+
+.results h2
+{
+  color: red;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom:30px;
+}
+
+.footer 
+{
+  text-align: center;
+  font-weight: bold;
+}

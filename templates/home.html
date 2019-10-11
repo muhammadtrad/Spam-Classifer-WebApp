@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block body %}
+{% include "navbar.html" %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="Muhammad Trad" content="Mubilize">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+  </head>
+
+
+<section class="hero is-primary is-bold is-large">
+  <div class="hero-body">
+      <h1>Youtube Comment Spam Filter</h1>
+      <div class="ml-container">
+          <form action="{{ url_for('predict')}}" method="POST">
+          <p>Enter Your Comment Here</p>
+          <!-- <input type="text" name="comment"/> -->
+          <textarea name="comment" rows="4" cols="50"></textarea>
+          <br/>
+          <input type="submit" class="button" value="Predict Spam or Not Spam">
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; Mubilize 2019</p>
+</footer>
+
+
+{% endblock %}
+{% block scripts %}
+<script src="../static/js/scripts.js"></script>
+{% endblock %}
