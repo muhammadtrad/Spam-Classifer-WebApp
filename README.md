@@ -1,4 +1,4 @@
-#Midterm Homework
+#Midterm Homework  
 ##Team: Standalone by Muhammad Trad
 
 ### Application Structure
