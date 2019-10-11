@@ -10,7 +10,7 @@
 - App is based on flask authorization engine. 
 - Payments are linked to stripe test functionality
 5. Application run in local environment by 
-cd Mubilize-master
+cd mubilize-midterm-master
 pip install -r requirements.txt
 python app.py
 ```
