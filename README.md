@@ -2,7 +2,7 @@
 ##Team: Standalone by Muhammad Trad
 
 ### Application Structure
-1. Simple application for predicting whether a youtube comment is spam or not.
+1. Simple application using machine learning to predict whether a youtube comment is spam or not.
 2. Application Model: 
 - sign up is required to access the prediction functionality and feature
 - in order to perform a prediction, upfront payment is required by credit card
