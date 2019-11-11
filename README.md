@@ -1,4 +1,4 @@
-#Midterm Homework  
+#Machine Learning Web App
 ##Team: Standalone by Muhammad Trad
 
 ### Application Structure
